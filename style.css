@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital@1&display=swap');
+ h1,h2,h3{
+  font-family: 'Poppins', sans-serif;
+ }
+ p{
+  font-family: 'Montserrat', sans-serif;
+ }
+ .blink 
+ {								/* Adding Blink on text */
+        bottom:0%;
+        animation: blinker 1.5s linear infinite;
+        color: #1c87c9;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: serif;
+ }
+body{
+  background-color: #D09CFA;
+}
+ h1{
+  text-align: center;
+ }
+
+ h3{
+  text-align: center;
+  font-family: 1.5em;
+
+ }
+
+ p{
+  text-align: center;
+  line-height:1.5em;
+  color: #fff;
+ }
+ h2{
+  text-align: center;
+  color: #F8F988;
+  font-size: 2em;
+
+ }
+
+ .div1{
+  background-color: #ADA2FF ;
+  width: 50%;
+  margin: 0 auto;
+  
+ }
+
+ h2:hover{
+  font-size: 2.3em
+ }
+      @keyframes blinker 
+	  {
+        50% 
+		{
+          opacity: 0;
+        }
+      }
+
+
+ 
